@@ -13,7 +13,6 @@ I'm trying to organize my preparing research for publication, as well as explore
 
 df<-read.csv("Table of Contents.csv")
 data.frame(df)
-head(df)
 ```
 
 Each of the 12 weeks (with an additional intro week and wrap-up week) has several instructional topics and exercises to perform. The Gantt chart would ideally show a timeline with these items clearly visible, preferably displayed by week. The language I was able to uncover and use to a mild degree of success was this:
@@ -53,6 +52,17 @@ and evenutally, after tweaking my task list to not contain colons or semi-colons
 m
 ```
 While all the tasks are there, this version of a Gantt chart is not ideal, in that it is not obvious how to format the chart to be better viewed. A closer look at this format may result in a more usable image.
-```{r}
+```
 
+Another timeline package I came across was "timevis". I manipulated the .csv a bit, inputting actual dates instead of the "after" nomenclature for the Gantt coding. The result is something a bit more polished, being able to zoom in on the task much more easily, and having the timeline in a more landscape feel rather than the overwhelming profile given in the Gantt.
+
+```{r}
+library(timevis)
+
+data <- data.frame(
+  content = df$task,
+  start   = df$start,
+  end     = df$end
+)
+timevis(data)
 ```
