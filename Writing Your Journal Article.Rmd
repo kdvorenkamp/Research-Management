@@ -1,9 +1,10 @@
 ---
 title: "Writing Your Journal Article in 12 Weeks"
+subtitle: A guide to academic publishing success by Wendy Laura Belcher
 output:
+  pdf_document: default
   html_notebook: default
   word_document: default
-subtitle: A guide to academic publishing success by Wendy Laura Belcher
 ---
 
 This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
@@ -23,7 +24,7 @@ m<-mermaid(
     # mermaid "header", each component separated with "\n" (line break)
     "gantt", "\n", 
     "dateFormat  YYYY-MM-DD", "\n", 
-    "title A Very Nice Gantt Diagram", "\n",
+    "title Journal Article Gantt Diagram", "\n",
     # unite the first two columns (task & status) and separate them with ":"
     # then, unite the other columns and separate them with ","
     # this will create the required mermaid "body"
@@ -38,7 +39,7 @@ m<-mermaid(
 
 m$x$config = list(ganttConfig = list(
   axisFormatter = list(list(
-    "%b %d, %Y"
+    "%b  %Y"
     ,htmlwidgets::JS(
       'function(d){ return d.getDay() == 1 }'
     )
