@@ -1,120 +1,118 @@
-task,status,pos,start,end
-Check out library book,done,0thWeek_1,11/13/2017,11/27/2017
-Renew library book,done,0thWeek_2,11/27/2017,14d
-Design Your Plan for Writing,"crit, active",1stWeek_0,12/5/2017,7d
-Instruction-Understanding feelings about writing. ,active,1stWeek_1,12/5/2017,2d
-Instruction-Keys to positive writing experiences.,active,1stWeek_2,after 1stWeek_1,2d
-Instruction- Designing a plan for submitting your article in 12 weeks.,active,1stWeek_3,after 1stWeek_2,3d
-Exercises- Selecting a paper of revision. ,active,1stWeek_a,12/6/2017,2d
-Exercises-  Choosing your writing site.,active,1stWeek_b,after 1stWeek_a,1d
-Exercises-  Designing your writing schedule. ,active,1stWeek_c,after 1stWeek_b,2d
-Exercises-  Anticipating and overturning writing obstacles.,active,1stWeek_d,after 1stWeek_c,2d
-Starting Your Article,"crit, active",2ndWeek_0,after 1stWeek_0,7d
-Instruction- Types of academic articles.,active,2ndWeek_1,after 1stWeek_3,1d
-Instruction-  Myths about publishable journal articles.,active,2ndWeek_2,after 2ndWeek_1,1d
-Instruction-  What gets published and why.,active,2ndWeek_3,after 2ndWeek_2,1d
-Instruction-  Abstracts as a tool for success.,active,2ndWeek_4,after 2ndWeek_3,2d
-Instruction-   Getting started on your article revision.,active,2ndWeek_5,after 2ndWeek_4,2d
-Exercise- Hammering out your topic.,active,2ndWeek_a,after 1stWeek_d,1d
-Exercise- Rereading your paper.,active,2ndWeek_b,after 2ndWeek_a,1d
-Exercise- Drafting your abstract.,active,2ndWeek_c,after 2ndWeek_b,2d
-Exercise- Reading a model article.,active,2ndWeek_d,after 2ndWeek_c,1d
-Exercise- Revising your abstract.,active,2ndWeek_e,after 2ndWeek_d,2d
-Advancing Your Argument,"crit, active",3rdWeek_0,after 2ndWeek_0,7d
-Instruction- Common reasons why journals reject articles. ,active,3rdWeek_1,after 2ndWeek_5,1d
-Instruction-  Main reason journal articles are rejected- no argument.,active,3rdWeek_2,after 3rdWeek_1,1d
-Instruction-  Making a good argument.,active,3rdWeek_3,after 3rdWeek_2,2d
-Instruction-  Organizing your article around your argument.,active,3rdWeek_4,after 3rdWeek_3,3d
-Exercise- Drafting your argument.,active,3rdWeek_a,after 2ndWeek_e,3d
-Exercise- Reviewing your article for an argument.,active,3rdWeek_b,after 3rdWeek_a,2d
-Exercise-  Revising your article around your argument.,active,3rdWeek_c,after 3rdWeek_b,2d
-Selecting a Journal,"crit, active",4thWeek_0,after 3rdWeek_0,7d
-Instruction- Good news about journals.,active,4thWeek_1,after 3rdWeek_4,1d
-Instruction-  The importance of picking the right journal.,active,4thWeek_2,after 4thWeek_1,1d
-"Instruction-  Types of academic journals- nonrecommended, questionable, and preferred.",active,4thWeek_3,after 4thWeek_2,2d
-Instruction-  Finding suitable academic journals.,active,4thWeek_4,after 4thWeek_3,3d
-Exercise- Searching for journals.,active,4thWeek_a,after 3rdWeek_c,1d
-Exercise-  Evaluating acedemic journals.,active,4thWeek_b,after 4thWeek_a,1d
-Exercise-  Matching your article to suitable journals.,active,4thWeek_c,after 4thWeek_b,1d
-Exercise- Reading relevant journals. ,active,4thWeek_d,after 4thWeek_c,2d
-Exercise- Writing a query letter to editors.,active,4thWeek_e,after 4thWeek_d,1d
-Exercise- Making a final decision about which journal.,active,4thWeek_f,after 4thWeek_e,1d
-Reviewing the Related Literature,"crit, active",5thWeek_0,after 4thWeek_0,7d
-Instruction- Reading the scholarly literatures.,active,5thWeek_1,after 4thWeek_4,1d
-Instruction- Types of scholarly literature.,active,5thWeek_2,after 5thWeek_1,1d
-Instruction-  Strategies for getting reading done.,active,5thWeek_3,after 5thWeek_2,1d
-Instruction-  Identifying your relationship to the related literature. ,active,5thWeek_4,after 5thWeek_3,1d
-Instruction-  Avoiding plagiarism.,active,5thWeek_5,after 5thWeek_4,1d
-Instruction- Writing about others' research.,active,5thWeek_6,after 5thWeek_5,2d
-Exercise- Evaluating your current conditions.,active,5thWeek_a,after 4thWeek_f,1d
-Exercise-  Identifying and reading the related literature.,active,5thWeek_b,after 5thWeek_a,2d
-Exercise-Evaluating the related literature.,active,5thWeek_c,after 5thWeek_b,2d
-Exercise- Writing or revisiting your related literature review.,active,5thWeek_d,after 5thWeek_c,2d
-Strengthing Your Structure,"crit, active",6thWeek_0,after 5thWeek_0,7d
-Instruction- On the importance of structure.,active,6thWeek_1,after 5thWeek_6,1d
-Instruction- Types of structures.,active,6thWeek_2,after 6thWeek_1,1d
-Instruction- Article structures in the social sciences and humanities.,active,6thWeek_3,after 6thWeek_2,2d
-Instruction- Solving structural problems.,active,6thWeek_4,after 6thWeek_3,3d
-Instruction- Revising for structure.,active,6thWeek_5,after 6thWeek_4,
-Exercise- Outlining a model article.,active,6thWeek_a,after 5thWeek_d,1d
-Exercise- Outlining your article.,active,6thWeek_b,after 6thWeek_a,1d
-Exercise- Restructuring your article.,active,6thWeek_c,after 6thWeek_b,1d
-Presenting Your Evidence,"crit, active",7thWeek_0,after 6thWeek_0,7d
-Instruction- Types of evidence.,active,7thWeek_1,after 6thWeek_5,1d
-Instruction- Writing up evidence in the social sciences.,active,7thWeek_2,after 7thWeek_1,1d
-Instruction-  Writing up evidence in the humanities.,active,7thWeek_3,after 7thWeek_2,2d
-Instruction- Revising your evidence.,active,7thWeek_4,after 7thWeek_3,3d
-Exercise- Discussing evidence in your field.,active,7thWeek_a,after 6thWeek_c,2d
-Exercise-  Revisiting your evidence.,active,7thWeek_b,after 7thWeek_a,2d
-Exercise- Shaping your evidence around your argument.,active,7thWeek_c,after 7thWeek_b,3d
-Opening and Concluding Your Article,"crit, active",8thWeek_0,after 7thWeek_0,7d
-Instruction- On the importance of openings.,active,8thWeek_1,after 7thWeek_4,2d
-Instruction- Revising your opening and conclusion.,active,8thWeek_2,after 8thWeek_1,2d
-Exercise- Revising your title.,active,8thWeek_a,after 7thWeek_c,1d
-Exercise- Revising your introduction. ,active,8thWeek_b,after 8thWeek_a,1d
-"Exercise-  Revisiting your abstract, related literature review, and author order.",active,8thWeek_c,after 8thWeek_b,1d
-Exercise- Revising your conclusion.,active,8thWeek_d,after 8thWeek_c,1d
-"Giving, Getting, and Using Others' Feedback","crit, active",9thWeek_0,after 8thWeek_0,7d
-Instruction- Types of feedback.,active,9thWeek_1,after 8thWeek_2,2d
-Instruction- Exchanging your articles.,active,9thWeek_2,after 9thWeek_1,2d
-Exercise- Sharing your article and getting feedback.,active,9thWeek_a,after 8thWeek_d,1d
-Exercise- Making a list of remaining tasks.,active,9thWeek_b,after 9thWeek_a,1d
-Exercise- Revising your article according to feedback.,active,9thWeek_c,after 9thWeek_b,1d
-Editing Your Sentences,"crit, active",10thWeek_0,after 9thWeek_0,7d
-Instruction- On taking the time.,active,10thWeek_1,after 9thWeek_2,1d
-Instruction- Types of revising.,active,10thWeek_2,after 10thWeek_1,1d
-Instruction- The rules of editing.,active,10thWeek_3,after 10thWeek_2,1d
-Instruction- The Belcher diagnostic test.,active,10thWeek_4,after 10thWeek_3,2d
-Instruction- Editing your article.,active,10thWeek_5,after 10thWeek_4,2d
-Exercise- Running the Belcher diagnostic test.,active,10thWeek_a,after 9thWeek_c,2d
-Exercise- Revising your article with the diagnostic test.,active,10thWeek_b,after 10thWeek_a,3d
-Exercise- Correcting other types of problem sentences.,active,10thWeek_c,after 10thWeek_b,2d
-Wrapping up Your Article,"crit, active",11thWeek_0,after 10thWeek_0,7d
-Instruction- On the perils of perfection.,active,11thWeek_1,after 10thWeek_5,1d
-Instruction- Finalizing your article.,active,11thWeek_2,after 11thWeek_1,2d
-Instruction- The rules of editing.,active,11thWeek_3,after 11thWeek_2,1d
-Instruction- The Belcher diagnostic test.,active,11thWeek_4,after 11thWeek_3,2d
-Instruction- Editing your article.,active,11thWeek_5,after 11thWeek_4,1d
-Exercise- Running the Belcher diagnostic test.,active,11thWeek_a,after 10thWeek_c,2d
-Exercise- Revising your article with the diagnostic test.,active,11thWeek_b,after 11thWeek_a,3d
-Exercise- Correcting other types of problem sentences.,active,11thWeek_c,after 11thWeek_b,2d
-Sending Your Article,"crit, active",12thWeek_0,after 11thWeek_0,7d
-Instruction- On the importance of finishing.,active,12thWeek_1,after 11thWeek_5,2d
-Instruction- Getting the submission ready.,active,12thWeek_2,after 12thWeek_1,5d
-Exercise- Writing the cover letter.,active,12thWeek_a,after 11thWeek_c,1d
-Exercise- Preparing illustrations.,active,12thWeek_b,after 12thWeek_a,2d
-Exercise- Putting your article into the journal's style.,active,12thWeek_c,after 12thWeek_b,1d
-Exercise- Preparing the final print or electronic version.,active,12thWeek_d,after 12thWeek_c,2d
-Exercise- Send and celebrate!,active,12thWeek_e,after 12thWeek_d,1d
-Responding to Journal Decisions,"crit, active",XthWeek_0,after 12thWeek_0,6m
-Instruction- An exhortation.,active,XthWeek_1,after 12thWeek_2,1d
-Instruction- Waiting for the journal's decision.,active,XthWeek_2,after 12thWeek_1,6m
-Instruction-  Reading the journal's decision.,active,XthWeek_3,after XthWeek_2,1d
-Instruction-  Types of journal decisions.,active,XthWeek_4,after XthWeek_3,2d
-Instruction- Responding to journal decisions.,active,XthWeek_5,after XthWeek_4,2d
-Exercise- Evaluating and responding to the journal decision.,active,XthWeek_a,after 12thWeek_e,7d
-Exercise- Planning your revision.,active,XthWeek_b,after XthWeek_a,2d
-Exercise-  Revising your article. ,active,XthWeek_c,after XthWeek_b,7d
-Exercise-  Drafting your revision cover letter.,active,XthWeek_d,after XthWeek_c,2d
-Exercise-  Requesting permissions.,active,XthWeek_e,after XthWeek_d,3d
-Exercise- On the importance of persevering.,active,XthWeek_f,after XthWeek_e,1d
+task,status,pos,start,end,duration,client
+Design Your Plan for Writing,"crit, active",1stWeek_0,12/7/2017,12/14/2017,7,Admin
+ Selecting a paper of revision. ,active,1stWeek_a,12/7/2017,12/9/2017,2,Exercise
+Understanding feelings about writing. ,active,1stWeek_1,12/7/2017,12/9/2017,2,Instruction
+  Choosing your writing site.,active,1stWeek_b,12/9/2017,12/10/2017,1,Exercise
+Keys to positive writing experiences.,active,1stWeek_2,12/9/2017,12/11/2017,2,Instruction
+  Designing your writing schedule. ,active,1stWeek_c,12/10/2017,12/12/2017,2,Exercise
+ Designing a plan for submitting your article in 12 weeks.,active,1stWeek_3,12/11/2017,12/14/2017,3,Instruction
+  Anticipating and overturning writing obstacles.,active,1stWeek_d,12/12/2017,12/14/2017,2,Exercise
+Starting Your Article,"crit, active",2ndWeek_0,12/14/2017,12/21/2017,7,Admin
+ Hammering out your topic.,active,2ndWeek_a,12/14/2017,12/16/2017,2,Exercise
+ Types of academic articles.,active,2ndWeek_1,12/14/2017,12/15/2017,1,Instruction
+  Myths about publishable journal articles.,active,2ndWeek_2,12/15/2017,12/16/2017,1,Instruction
+ Rereading your paper.,active,2ndWeek_b,12/16/2017,12/17/2017,1,Exercise
+  What gets published and why.,active,2ndWeek_3,12/16/2017,12/17/2017,1,Instruction
+ Drafting your abstract.,active,2ndWeek_c,12/17/2017,12/19/2017,2,Exercise
+  Abstracts as a tool for success.,active,2ndWeek_4,12/17/2017,12/19/2017,2,Instruction
+ Reading a model article.,active,2ndWeek_d,12/19/2017,12/20/2017,1,Exercise
+   Getting started on your article revision.,active,2ndWeek_5,12/19/2017,12/21/2017,2,Instruction
+ Revising your abstract.,active,2ndWeek_e,12/20/2017,12/22/2017,2,Exercise
+Advancing Your Argument,"crit, active",3rdWeek_0,12/21/2017,12/28/2017,7,Admin
+ Common reasons why journals reject articles. ,active,3rdWeek_1,12/21/2017,12/22/2017,1,Instruction
+ Drafting your argument.,active,3rdWeek_a,12/22/2017,12/25/2017,3,Exercise
+  Main reason journal articles are rejected- no argument.,active,3rdWeek_2,12/22/2017,12/23/2017,1,Admin
+  Making a good argument.,active,3rdWeek_3,12/23/2017,12/25/2017,2,Instruction
+ Reviewing your article for an argument.,active,3rdWeek_b,12/25/2017,12/27/2017,2,Exercise
+  Organizing your article around your argument.,active,3rdWeek_4,12/25/2017,12/28/2017,3,Instruction
+  Revising your article around your argument.,active,3rdWeek_c,12/27/2017,12/29/2017,2,Exercise
+Selecting a Journal,"crit, active",4thWeek_0,12/28/2017,1/4/2018,7,Admin
+ Good news about journals.,active,4thWeek_1,12/28/2017,12/29/2017,1,Instruction
+ Searching for journals.,active,4thWeek_a,12/29/2017,12/30/2017,1,Exercise
+  The importance of picking the right journal.,active,4thWeek_2,12/29/2017,12/30/2017,1,Instruction
+  Evaluating acedemic journals.,active,4thWeek_b,12/30/2017,12/31/2017,1,Exercise
+"  Types of academic journals- nonrecommended, questionable, and preferred.",active,4thWeek_3,12/30/2017,1/1/2018,2,Admin
+  Matching your article to suitable journals.,active,4thWeek_c,12/31/2017,1/1/2018,1,Exercise
+ Reading relevant journals. ,active,4thWeek_d,1/1/2018,1/3/2018,2,Exercise
+  Finding suitable academic journals.,active,4thWeek_4,1/1/2018,1/4/2018,3,Instruction
+ Writing a query letter to editors.,active,4thWeek_e,1/3/2018,1/4/2018,1,Exercise
+Reviewing the Related Literature,"crit, active",5thWeek_0,1/4/2018,1/11/2018,7,Admin
+ Making a final decision about which journal.,active,4thWeek_f,1/4/2018,1/5/2018,1,Exercise
+ Reading the scholarly literatures.,active,5thWeek_1,1/4/2018,1/5/2018,1,Instruction
+ Evaluating your current conditions.,active,5thWeek_a,1/5/2018,1/6/2018,1,Exercise
+ Types of scholarly literature.,active,5thWeek_2,1/5/2018,1/6/2018,1,Instruction
+  Identifying and reading the related literature.,active,5thWeek_b,1/6/2018,1/8/2018,2,Exercise
+  Strategies for getting reading done.,active,5thWeek_3,1/6/2018,1/7/2018,1,Instruction
+  Identifying your relationship to the related literature. ,active,5thWeek_4,1/7/2018,1/8/2018,1,Instruction
+Evaluating the related literature.,active,5thWeek_c,1/8/2018,1/10/2018,2,Exercise
+  Avoiding plagiarism.,active,5thWeek_5,1/8/2018,1/9/2018,1,Instruction
+ Writing about others' research.,active,5thWeek_6,1/9/2018,1/11/2018,2,Instruction
+ Writing or revisiting your related literature review.,active,5thWeek_d,1/10/2018,1/12/2018,2,Exercise
+Strengthing Your Structure,"crit, active",6thWeek_0,1/11/2018,1/18/2018,7,Admin
+ On the importance of structure.,active,6thWeek_1,1/11/2018,1/12/2018,1,Instruction
+ Outlining a model article.,active,6thWeek_a,1/12/2018,1/13/2018,1,Exercise
+ Types of structures.,active,6thWeek_2,1/12/2018,1/13/2018,1,Instruction
+ Outlining your article.,active,6thWeek_b,1/13/2018,1/14/2018,1,Exercise
+ Article structures in the social sciences and humanities.,active,6thWeek_3,1/13/2018,1/15/2018,2,Instruction
+ Restructuring your article.,active,6thWeek_c,1/14/2018,1/15/2018,1,Exercise
+ Discussing evidence in your field.,active,7thWeek_a,1/15/2018,1/17/2018,2,Exercise
+ Solving structural problems.,active,6thWeek_4,1/15/2018,1/16/2018,1,Instruction
+ Revising for structure.,active,6thWeek_5,1/16/2018,1/18/2018,2,Instruction
+  Revisiting your evidence.,active,7thWeek_b,1/17/2018,1/19/2018,2,Exercise
+Presenting Your Evidence,"crit, active",7thWeek_0,1/18/2018,1/25/2018,7,Admin
+ Types of evidence.,active,7thWeek_1,1/18/2018,1/19/2018,1,Instruction
+ Shaping your evidence around your argument.,active,7thWeek_c,1/19/2018,1/22/2018,3,Exercise
+ Writing up evidence in the social sciences.,active,7thWeek_2,1/19/2018,1/20/2018,1,Instruction
+  Writing up evidence in the humanities.,active,7thWeek_3,1/20/2018,1/22/2018,2,Instruction
+ Revising your title.,active,8thWeek_a,1/22/2018,1/23/2018,1,Exercise
+ Revising your evidence.,active,7thWeek_4,1/22/2018,1/25/2018,3,Instruction
+ Revising your introduction. ,active,8thWeek_b,1/23/2018,1/24/2018,1,Exercise
+"  Revisiting your abstract, related literature review, and author order.",active,8thWeek_c,1/24/2018,1/25/2018,1,Exercise
+Opening and Concluding Your Article,"crit, active",8thWeek_0,1/25/2018,2/1/2018,7,Admin
+ Revising your conclusion.,active,8thWeek_d,1/25/2018,1/26/2018,1,Exercise
+ On the importance of openings.,active,8thWeek_1,1/25/2018,1/27/2018,2,Instruction
+ Sharing your article and getting feedback.,active,9thWeek_a,1/26/2018,1/27/2018,1,Exercise
+ Making a list of remaining tasks.,active,9thWeek_b,1/27/2018,1/28/2018,1,Exercise
+ Revising your opening and conclusion.,active,8thWeek_2,1/27/2018,1/29/2018,2,Instruction
+ Revising your article according to feedback.,active,9thWeek_c,1/28/2018,1/29/2018,1,Exercise
+ Running the Belcher diagnostic test.,active,10thWeek_a,1/29/2018,1/31/2018,2,Exercise
+ Types of feedback.,active,9thWeek_1,1/29/2018,1/31/2018,2,Instruction
+ Revising your article with the diagnostic test.,active,10thWeek_b,1/31/2018,2/3/2018,3,Exercise
+ Exchanging your articles.,active,9thWeek_2,1/31/2018,2/2/2018,2,Instruction
+"Giving, Getting, and Using Others' Feedback","crit, active",9thWeek_0,2/1/2018,2/8/2018,7,Admin
+ On taking the time.,active,10thWeek_1,2/2/2018,2/3/2018,1,Instruction
+ Correcting other types of problem sentences.,active,10thWeek_c,2/3/2018,2/5/2018,2,Exercise
+ Types of revising.,active,10thWeek_2,2/3/2018,2/4/2018,1,Instruction
+ The rules of editing.,active,10thWeek_3,2/4/2018,2/5/2018,1,Instruction
+ Running the Belcher diagnostic test.,active,11thWeek_a,2/5/2018,2/7/2018,2,Exercise
+ The Belcher diagnostic test.,active,10thWeek_4,2/5/2018,2/7/2018,2,Instruction
+ Revising your article with the diagnostic test.,active,11thWeek_b,2/7/2018,2/10/2018,3,Exercise
+ Editing your article.,active,10thWeek_5,2/7/2018,2/9/2018,2,Instruction
+Editing Your Sentences,"crit, active",10thWeek_0,2/8/2018,2/15/2018,7,Admin
+ On the perils of perfection.,active,11thWeek_1,2/9/2018,2/10/2018,1,Instruction
+ Correcting other types of problem sentences.,active,11thWeek_c,2/10/2018,2/12/2018,2,Exercise
+ Finalizing your article.,active,11thWeek_2,2/10/2018,2/12/2018,2,Instruction
+ Writing the cover letter.,active,12thWeek_a,2/12/2018,2/13/2018,1,Exercise
+ The rules of editing.,active,11thWeek_3,2/12/2018,2/13/2018,1,Instruction
+ Preparing illustrations.,active,12thWeek_b,2/13/2018,2/15/2018,2,Exercise
+ The Belcher diagnostic test.,active,11thWeek_4,2/13/2018,2/15/2018,2,Instruction
+Wrapping up Your Article,"crit, active",11thWeek_0,2/15/2018,2/22/2018,7,Admin
+ Putting your article into the journal's style.,active,12thWeek_c,2/15/2018,2/16/2018,1,Exercise
+ Editing your article.,active,11thWeek_5,2/15/2018,2/16/2018,1,Instruction
+ Preparing the final print or electronic version.,active,12thWeek_d,2/16/2018,2/18/2018,2,Exercise
+ On the importance of finishing.,active,12thWeek_1,2/16/2018,2/18/2018,2,Instruction
+ Send and celebrate!,active,12thWeek_e,2/18/2018,2/19/2018,1,Exercise
+ Getting the submission ready.,active,12thWeek_2,2/18/2018,2/23/2018,5,Instruction
+ Evaluating and responding to the journal decision.,active,XthWeek_a,2/19/2018,2/26/2018,7,Exercise
+Sending Your Article,"crit, active",12thWeek_0,2/22/2018,3/1/2018,7,Admin
+ An exhortation.,active,XthWeek_1,2/23/2018,2/24/2018,1,Instruction
+ Waiting for the journal's decision.,active,XthWeek_2,2/24/2018,8/23/2018,180,Instruction
+ Planning your revision.,active,XthWeek_b,2/26/2018,2/28/2018,2,Exercise
+  Revising your article. ,active,XthWeek_c,2/28/2018,3/7/2018,7,Exercise
+Responding to Journal Decisions,"crit, active",XthWeek_0,3/1/2018,8/28/2018,180,Admin
+  Drafting your revision cover letter.,active,XthWeek_d,3/7/2018,3/9/2018,2,Exercise
+  Requesting permissions.,active,XthWeek_e,3/9/2018,3/12/2018,3,Exercise
+ On the importance of persevering.,active,XthWeek_f,3/12/2018,3/13/2018,1,Exercise
+  Reading the journal's decision.,active,XthWeek_3,10/17/2018,10/19/2018,2,Instruction
+  Types of journal decisions.,active,XthWeek_4,10/19/2018,10/22/2018,3,Instruction
+ Responding to journal decisions.,active,XthWeek_5,10/22/2018,10/26/2018,4,Instruction

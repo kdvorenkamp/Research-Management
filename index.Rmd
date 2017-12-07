@@ -83,13 +83,12 @@ df$color  <- factor(df$client, labels = cols)
 p <- plot_ly()
 for(i in 1:(nrow(df) - 1)){
   p <- add_trace(p,
-                 x = c(df$Start[i], df$Start[i]+df$duration[i]), 
-                 y = c(i, i), 
+                 x = c(df$Start[i], df$Start[i]+df$duration[i]),                  y = c(i, i), 
                  mode = "lines",
                  line = list(color = df$color[i], width = 20),
                  showlegend = F,
                  hoverinfo = "text",
-                 text = paste(as.character(df$Task[i]), "<br>",
+                 text = paste("Task: ", df$task[i],
                               "Status: ", df$status[i]),
                  evaluate = T
                  )
@@ -97,45 +96,11 @@ for(i in 1:(nrow(df) - 1)){
 
 p
 ```
-Adding some formatting might make this one easier to look at:
-```{r}
-p <- layout(p,
-            
-            # Axis options:
-            # 1. Remove gridlines
-            # 2. Customize y-axis tick labels and show task names instead of numbers
-            
-            xaxis = list(showgrid = F, tickfont = list(color = "#e6e6e6")),
-            
-            yaxis = list(showgrid = F, tickfont = list(color = "#e6e6e6"),
-                         tickmode = "array", tickvals = 1:nrow(df), ticktext = unique(df$task),
-                         domain = c(0, 0.9))
-)
-            
-            # Annotations
-            
-annotations = list(
-              # Add total duration and total resources used
-              # x and y coordinates are based on a domain of [0,1] and not
-              # actual x-axis and y-axis values
-              
-              list(xref = "paper", yref = "paper",
-                   x = 0.80, y = 0.1,
-                   text = paste0("Total Duration: ", sum(df$Duration), " days<br>",
+So, I'm not sure what to do with the R markdown commentary here. Obviously, there is more work and formatting to be done, but at least I now know that it's possible to code a Gantt chart in R, and there are several packages that can help me get the style I want. I would like to pursue this further, as I think it ultimately can help me organize my research and task management into visual aids that can help keep me on task.
 
-              # Add client name and title on top
-              
-              list(xref = "paper", yref = "paper",
-                   x = 0.1, y = 1, xanchor = "left",
-                   text = paste0("Gantt Chart: ", client),
-                   font = list(color = "#f2f2f2", size = 20, family = "Times New Roman"),
-                   ax = 0, ay = 0,
-                   align = "left")
-            )))
-            
-            plot_bgcolor = "#333333"  # Chart area color
-            paper_bgcolor = "#333333"  # Axis area color
- 
-p
-```
+In addition, I've always been daunted by Gantt carts, partly because they are not straight forward to make in Microsoft Excel, and because most of the online help to make them involve paying a fee or buying software, which I try to avoid. I really don't want to pay for a software that I may or may not like/use frequently enough to justify the purchase.  But my brief foray into the R help forums was enough to give me 3 viable options in R, and I was able to get the code to work well enough with not too much headache.  It's not perfect, obviously, but it's allowed me to practice making my own GitHub repository without referring back to class instructions, working out the kinks of committing and pushing to the github site, and making sure my website is updating correctly and fixing the nuances that keep cropping up.
 
+I still don't know much R programming vocabulary, but I can stumble around enough to have a vague idea of what's going on. And that is huge progress for me.
+
+So, here's a dancing pig.
+![](https://i.imgur.com/qTzYoAw.gif)
