@@ -7,15 +7,16 @@ output:
   word_document: default
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+I'm trying to organize my preparing research for publication, as well as explore the timeline capabilities of R. I have prepared the Table of Contents from Wendy Laura Belcher's "Writing Your Journal Article in 12 Weeks" workbook as a .csv file, previously built via Microsoft Excel. Using a data frame format I found while looking for help with Gantt charts in R, the dataframe can be seen here:
+
 ```{r}
-getwd()
+
 df<-read.csv("Table of Contents.csv")
 data.frame(df)
 head(df)
 ```
 
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+Each of the 12 weeks (with an additional intro week and wrap-up week) has several instructional topics and exercises to perform. The Gantt chart would ideally show a timeline with these items clearly visible, preferably displayed by week. The language I was able to uncover and use to a mild degree of success was this:
 
 ```{r}
 library(DiagrammeR)
@@ -45,14 +46,13 @@ m$x$config = list(ganttConfig = list(
     )
   ))
 ))
+```
+and evenutally, after tweaking my task list to not contain colons or semi-colons and rooting through mistakes in the schedule labelling, I was able to force this out:
+
+```{r}
 m
 ```
-
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+While all the tasks are there, this version of a Gantt chart is not ideal, in that it is not obvious how to format the chart to be better viewed. A closer look at this format may result in a more usable image.
 ```{r}
 
 ```
-
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
-
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
