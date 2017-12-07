@@ -79,7 +79,9 @@ df$Start  <- as.Date(df$start, format = "%m/%d/%Y")
 client    <- "Sample Client"
 cols      <- RColorBrewer::brewer.pal(length(unique(df$client)), name = "Set3")
 df$color  <- factor(df$client, labels = cols)
+```
 
+```{r,echo=FALSE,warning=FALSE,message=FALSE,error=FALSE}
 p <- plot_ly()
 for(i in 1:(nrow(df) - 1)){
   p <- add_trace(p,
@@ -96,11 +98,12 @@ for(i in 1:(nrow(df) - 1)){
 
 p
 ```
-So, I'm not sure what to do with the R markdown commentary here. Obviously, there is more work and formatting to be done, but at least I now know that it's possible to code a Gantt chart in R, and there are several packages that can help me get the style I want. I would like to pursue this further, as I think it ultimately can help me organize my research and task management into visual aids that can help keep me on task.
+Obviously, there is more work and formatting to be done, but at least I now know that it's possible to code a Gantt chart in R, and there are several packages that can help me get the style I want. I would like to pursue this further, as I think it ultimately can help me organize my research and task management into visual aids that can help keep me on task.
 
 In addition, I've always been daunted by Gantt carts, partly because they are not straight forward to make in Microsoft Excel, and because most of the online help to make them involve paying a fee or buying software, which I try to avoid. I really don't want to pay for a software that I may or may not like/use frequently enough to justify the purchase.  But my brief foray into the R help forums was enough to give me 3 viable options in R, and I was able to get the code to work well enough with not too much headache.  It's not perfect, obviously, but it's allowed me to practice making my own GitHub repository without referring back to class instructions, working out the kinks of committing and pushing to the github site, and making sure my website is updating correctly and fixing the nuances that keep cropping up.
 
 I still don't know much R programming vocabulary, but I can stumble around enough to have a vague idea of what's going on. And that is huge progress for me.
 
 So, here's a dancing pig.
+
 ![](https://i.imgur.com/qTzYoAw.gif)
