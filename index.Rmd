@@ -52,7 +52,6 @@ and evenutally, after tweaking my task list to not contain colons or semi-colons
 m
 ```
 While all the tasks are there, this version of a Gantt chart is not ideal, in that it is not obvious how to format the chart to be better viewed. A closer look at this format may result in a more usable image.
-```
 
 Another timeline package I came across was "timevis". I manipulated the .csv a bit, inputting actual dates instead of the "after" nomenclature for the Gantt coding. The result is something a bit more polished, being able to zoom in on the task much more easily, and having the timeline in a more landscape feel rather than the overwhelming profile given in the Gantt.
 
@@ -64,5 +63,79 @@ data <- data.frame(
   start   = df$start,
   end     = df$end
 )
+```
+Resulting in:
+```{r}
 timevis(data)
 ```
+Some features I would like to add to this timeline is to color code the tasks by topic and status and to have the information for the task be available when moused over.
+
+Another R timeline package is "plotly".
+
+```{r}
+library(plotly)
+
+df$Start  <- as.Date(df$start, format = "%m/%d/%Y")
+client    <- "Sample Client"
+cols      <- RColorBrewer::brewer.pal(length(unique(df$client)), name = "Set3")
+df$color  <- factor(df$client, labels = cols)
+
+p <- plot_ly()
+for(i in 1:(nrow(df) - 1)){
+  p <- add_trace(p,
+                 x = c(df$Start[i], df$Start[i]+df$duration[i]), 
+                 y = c(i, i), 
+                 mode = "lines",
+                 line = list(color = df$color[i], width = 20),
+                 showlegend = F,
+                 hoverinfo = "text",
+                 text = paste(as.character(df$Task[i]), "<br>",
+                              "Status: ", df$status[i]),
+                 evaluate = T
+                 )
+                 }
+
+p
+```
+Adding some formatting might make this one easier to look at:
+```{r}
+p <- layout(p,
+            
+            # Axis options:
+            # 1. Remove gridlines
+            # 2. Customize y-axis tick labels and show task names instead of numbers
+            
+            xaxis = list(showgrid = F, tickfont = list(color = "#e6e6e6")),
+            
+            yaxis = list(showgrid = F, tickfont = list(color = "#e6e6e6"),
+                         tickmode = "array", tickvals = 1:nrow(df), ticktext = unique(df$task),
+                         domain = c(0, 0.9))
+)
+            
+            # Annotations
+            
+annotations = list(
+              # Add total duration and total resources used
+              # x and y coordinates are based on a domain of [0,1] and not
+              # actual x-axis and y-axis values
+              
+              list(xref = "paper", yref = "paper",
+                   x = 0.80, y = 0.1,
+                   text = paste0("Total Duration: ", sum(df$Duration), " days<br>",
+
+              # Add client name and title on top
+              
+              list(xref = "paper", yref = "paper",
+                   x = 0.1, y = 1, xanchor = "left",
+                   text = paste0("Gantt Chart: ", client),
+                   font = list(color = "#f2f2f2", size = 20, family = "Times New Roman"),
+                   ax = 0, ay = 0,
+                   align = "left")
+            )))
+            
+            plot_bgcolor = "#333333"  # Chart area color
+            paper_bgcolor = "#333333"  # Axis area color
+ 
+p
+```
+
