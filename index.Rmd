@@ -1,0 +1,58 @@
+---
+title: "Writing Your Journal Article in 12 Weeks"
+subtitle: A guide to academic publishing success by Wendy Laura Belcher
+output:
+  pdf_document: default
+  html_notebook: default
+  word_document: default
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+```{r}
+getwd()
+df<-read.csv("Table of Contents.csv")
+data.frame(df)
+head(df)
+```
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+library(DiagrammeR)
+m<-mermaid(
+  paste0(
+    # mermaid "header", each component separated with "\n" (line break)
+    "gantt", "\n", 
+    "dateFormat  YYYY-MM-DD", "\n", 
+    "title Journal Article Gantt Diagram", "\n",
+    # unite the first two columns (task & status) and separate them with ":"
+    # then, unite the other columns and separate them with ","
+    # this will create the required mermaid "body"
+    paste(df %>%
+            unite(i, task, status, sep = " : ") %>%
+            unite(j, i, pos, start, end, sep = ", ") %>%
+            .$j, 
+          collapse = "\n"
+    ), "\n"
+  )
+)
+
+m$x$config = list(ganttConfig = list(
+  axisFormatter = list(list(
+    "%b  %Y"
+    ,htmlwidgets::JS(
+      'function(d){ return d.getDay() == 1 }'
+    )
+  ))
+))
+m
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+```{r}
+
+```
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
